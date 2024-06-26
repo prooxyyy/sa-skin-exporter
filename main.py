@@ -74,7 +74,7 @@ def extract_file(img_archive, file_name, output_folder):
 def main():
     peds_ide_path = 'PEDS.IDE' # Путь до IDE файла
     img_file_path = 'player.img' # Путь до .img файла
-    output_folder = 'player' # Папка в которую будут загружены скины
+    output_folder = 'player' # Папка в которую будут экспортированы скины
 
     os.makedirs(output_folder, exist_ok=True)
 
